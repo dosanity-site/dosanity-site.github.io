@@ -870,6 +870,9 @@ section .about-row {
   .box {
     padding: 25px;
   }
+  .value-size{
+    font-size: 25px;
+  }
   
 }
 
