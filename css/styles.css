@@ -6,8 +6,9 @@
 
 @import url('https://fonts.cdnfonts.com/css/amperzand');
 @import url('https://fonts.googleapis.com/css?family=Hurricane&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.cdnfonts.com/css/bahnschrift');
+@import url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
 
 /* ==================================================================================== */
 
@@ -115,19 +116,20 @@ body {
 }
 
 .title-btn {
-  font-size: 60px;
-  font-family: 'Bahnschrift', sans-serif !important;
-  font-weight: 600;
+  font-size: 50px;
+  font-family: 'Arial Rounded MT Bold', sans-serif !important;
+  /* font-weight: bold !important; */
   margin-top: 120px;
 }
 
 .background {
-  background-color: #063F0D;
+  background-color: #0F612C;
   color: white;
 }
 
 .nav-logo {
   height: 65px;
+  width: 100%;
 }
 
 section .container {
@@ -154,7 +156,7 @@ hr {
 }
 
 .title-text {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
   font-weight: bold;
   font-size: 22px;
 }
@@ -266,13 +268,13 @@ img {
   margin-right: auto;
 }
 .card {
-  border: 3px solid transparent;
+  border: 3px solid black;
   background-color: transparent;
 }
 
 .card-body {
   height: 320pt;
-  background-color: #063F0D;
+  background-color: #0F612C;
   color: white;
 }
 
@@ -326,7 +328,7 @@ img {
 /* ==================================================================================== */
 
 .home-btn {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Arial Rounded MT Bold', sans-serif !important;
   font-size: 20px;
   background-color: transparent;
   border: 3px solid white;
@@ -468,25 +470,6 @@ img {
 }
 
 /* ======================================== */
-@media only screen and (max-width: 767px) {
-  .column-3 {
-    width: 100%;
-  }
-  .column-4 {
-    width: 50%;
-  }
-}
-/* ======================================== */
-@media (min-width: 768px) {
-  .column-3 {
-    width: 33.33%;
-  }
-  .column-4 {
-    width: 25%;
-  }
-}
-
-/* ======================================== */
 /* Mobile */
 @media only screen and (max-width:599px) {
   .home-title {
@@ -520,6 +503,12 @@ img {
     font-family: 'Hurricane', sans-serif;
     font-size: 7.5vh;
   }
+  .column-3 {
+    width: 100%;
+  }
+  .column-4 {
+    width: 50%;
+  }
 }
 
 /* ======================================== */
@@ -545,6 +534,12 @@ img {
   .section-three-font {
     font-family: 'Hurricane', sans-serif;
     font-size: 90px;
+  }
+  .column-3 {
+    width: 100%;
+  }
+  .column-4 {
+    width: 50%;
   }
 }
 
@@ -593,6 +588,12 @@ img {
   .hero-section .container img{
     width: 50%;
   }
+  .column-3 {
+    width: 33.33%;
+  }
+  .column-4 {
+    width: 25%;
+  }
 }
 
 /* ==================================================================================== */
@@ -614,11 +615,11 @@ img {
 }
 
 section .about-row {
-  background-color: #063F0D;
+  background-color: #0F612C;
 }
 
 .text {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
   /* font-weight: bold; */
 }
 
@@ -689,6 +690,9 @@ section .about-row {
 @media only screen and (max-width:599px) {
   .column {
     width: 100%;
+  }
+  .about-title {
+    font-size: 35px;
   }
 }
 
@@ -796,13 +800,15 @@ section .about-row {
 /* ==================================================================================== */
 
 .box-title {
-  font-size: 50px;
-  font-family: 'Bahnschrift', sans-serif !important;
-  font-weight: 600;
+  /* font-size: 50px; */
+  font-family: 'Arial Rounded MT Bold', sans-serif !important;
+  /* font-weight: 600; */
   padding-top: 25px;
 }
 .square{
   margin-top: 150px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
 .empty-column {
@@ -848,7 +854,7 @@ section .about-row {
     height: 500px;
   }
   .box-title {
-    font-size: 50px;
+    font-size: 45px;
   }
   .box {
     padding: 40px;
@@ -871,11 +877,11 @@ section .about-row {
 }
 .strip-title{
   font-size: 70px;
-  font-family: 'Bahnschrift', sans-serif !important;
-  font-weight: 600;
+  font-family: 'Arial Rounded MT Bold', sans-serif !important;
+  /* font-weight: 600; */
   padding-top: 15px;
   margin-top: 20px;
-  color: #063F0D;
+  color: #0F612C;
 }
 
 .values {
@@ -889,7 +895,7 @@ section .about-row {
 }
 
 .shape {
-  font-family: 'Bahnschrift', sans-serif !important;
+  font-family: 'Nunito', sans-serif !important;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -898,17 +904,17 @@ section .about-row {
   color: white;
   font-size: 20px;
   z-index:1;
-  position: absolute;
-  top: -40px;
-  left: 40%;
   font-weight: bold;
   text-align: center;
   padding-top: 13px;
-
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%,0)
 }
 
 .intern-btn {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
   font-size: 20px;
   background-color: transparent;
   border: 3px solid white;
