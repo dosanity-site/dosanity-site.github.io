@@ -252,7 +252,7 @@ img {
   border: 2px solid;
   /* border-radius: 2px; */
   animation: jumpInfinite 1.5s infinite;
-  color: white;
+  color: black;
 }
 
 .down-arrow:after {
@@ -734,6 +734,9 @@ section .about-row {
   .about-title {
     font-size: 35px;
   }
+  .team-name {
+    font-size: 25px;
+  }
 }
 
 /* ======================================== */
@@ -849,6 +852,7 @@ section .about-row {
   margin-top: 100px;
   border: 5px solid black;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 
 .empty-column {
@@ -962,7 +966,8 @@ section .about-row {
 .intern-btn {
   font-family: 'Nunito', sans-serif !important;
   font-size: 20px;
-  background-color: transparent;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 3px solid white;
   border-radius: 4px;
   display: inline-block;
@@ -973,13 +978,13 @@ section .about-row {
   text-align: center;
   text-decoration: none;
   padding: 7px;
-  width: 300px;
+  width: 250px;
   margin-top: 100px;
 }
 
 .intern-btn:hover {
-  background-color: black;
-  border: 3px solid black;
+  background-color: #1DB954;
+  border: 3px solid #1DB954;
   border-radius: 4px;
   color: white;
   text-decoration: none;
@@ -991,14 +996,19 @@ section .about-row {
   background-repeat: no-repeat; 
   background-position-y: 65%;
   background-position-x: center;
-  background-attachment: fixed;       
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* height: 100vh;  */
+  height: 28vh; 
   width: 100%;
-  margin-top: 70px;
+  margin-top: 100px;
+}
+
+.background-image::before {
+  content: "";
+  background-color: rgba(0,0,0,0.25);
 }
 
 /* ==================================================================================== */
