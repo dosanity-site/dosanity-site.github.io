@@ -31,7 +31,7 @@
 }
 
 .topnav a.active {
-  background-color: #1DB954;
+  background-color: #386533;
   color: white;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .background {
-  background-color: #0F612C;
+  background-color: #063f0d;
   color: white;
 }
 
@@ -311,7 +311,7 @@ img {
 
 .card-body {
   height: 320pt;
-  background-color: #0F612C;
+  background-color: #063f0d;
   color: white;
 }
 
@@ -546,6 +546,9 @@ img {
   .column-4 {
     width: 50%;
   }
+  .column-2 {
+    width: 100%;
+  }
 }
 
 /* ======================================== */
@@ -577,6 +580,9 @@ img {
   }
   .column-4 {
     width: 50%;
+  }
+  .column-2 {
+    width: 100%;
   }
 }
 
@@ -631,6 +637,9 @@ img {
   .column-4 {
     width: 25%;
   }
+  .column-2 {
+    width: 50%;
+  }
 }
 
 /* ==================================================================================== */
@@ -653,7 +662,7 @@ img {
 }
 
 section .about-row {
-  background-color: #0F612C;
+  background-color: #063f0d;
 }
 
 .text {
@@ -671,7 +680,7 @@ section .about-row {
   /* border: 3px solid black; */
   /* padding: 50px; */
   background-color: white;
-  /* border: 10px solid #0F612C; */
+  /* border: 10px solid #063f0d; */
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -760,7 +769,7 @@ section .about-row {
     width: 50%;
   }
   .collapsible:hover {
-    background-color: #1DB954;
+    background-color: #386533;
   }
 }
 
@@ -931,7 +940,7 @@ section .about-row {
   /* font-weight: 600; */
   padding-top: 15px;
   margin-top: 20px;
-  color: #0F612C;
+  color: #063f0d;
 }
 
 .values {
@@ -949,7 +958,7 @@ section .about-row {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color:#1DB954;
+  background-color:#386533;
   border: 3px solid black;
   color: white;
   font-size: 20px;
@@ -983,8 +992,8 @@ section .about-row {
 }
 
 .intern-btn:hover {
-  background-color: #1DB954;
-  border: 3px solid #1DB954;
+  background-color: #386533;
+  border: 3px solid #386533;
   border-radius: 4px;
   color: white;
   text-decoration: none;
