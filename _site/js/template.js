@@ -433,7 +433,7 @@ var dolls = document.getElementsByClassName("collapsible");
 
   });
 }
-document.querySelector('.collapsible').click();
+// document.querySelector('.collapsible').click();
 
 // ====================================================================================
 
