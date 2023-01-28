@@ -423,7 +423,7 @@ img {
 .hero-section {
   position: relative;
   overflow: hidden;
-  /* padding-top: 70px; */
+  padding-top: 70px;
   height: 100vh;
 }
 
@@ -585,7 +585,7 @@ img {
     width: 100%;
   }
 
-  .hero-section .container img{
+  .background-image .container img{
     width: 70vmin;
   }
 }
@@ -632,7 +632,7 @@ img {
     font-family: 'Hurricane', sans-serif;
     font-size: 90px;
   }
-  .hero-section .container img{
+  .background-image .container img{
     width: 60%;
   }
   .column-3 {
@@ -1005,7 +1005,7 @@ section .about-row {
 
 
 .background-image {
-  background-image: url("../ACCESS/CAREERS/PHOTOS/photo1.jpg");
+  background-image: url("../ACCESS/HOME/PHOTOS/photo1.jpg");
   background-repeat: no-repeat; 
   background-position-y: 65%;
   background-position-x: center;
