@@ -131,8 +131,8 @@ body {
 }
 
 .nav-logo {
-  height: 25px !important;
-  width: 221.48px !important;
+  height: 25px;
+  width: 221.48px;
 }
 
 section .container {
@@ -329,6 +329,9 @@ img {
     bottom: 28px; /* Place the button at the bottom of the page */
     right: 20px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
+  }
+  .nav-logo {
+    margin-right: 20px;
   }
 }
 
