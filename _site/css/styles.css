@@ -535,6 +535,10 @@ img {
   .column-2 {
     width: 100%;
   }
+
+  .background-home section img{
+    margin-top: 60px;
+  }
 }
 
 /* ======================================== */
@@ -567,7 +571,7 @@ img {
     width: 100%;
   }
 
-  .background-home .container img{
+  .background-home section img{
     width: 70vmin;
   }
 }
@@ -575,7 +579,7 @@ img {
 /* ======================================== */
 /* Desktop */
 @media (min-width: 1050px) {
-  .background-home .container img{
+  .background-home section img{
     width: 60%;
   }
   .column-3 {
