@@ -959,7 +959,7 @@ section .about-row {
 }
 
 .background-careers {
-  background-image: url("../ACCESS/CAREERS/PHOTOS/photo1.jpg");
+  /* background-image: url("../ACCESS/CAREERS/PHOTOS/photo1.jpg"); */
   background-repeat: no-repeat; 
   background-position-y: 65%;
   background-position-x: center;
