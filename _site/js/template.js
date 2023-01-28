@@ -12,6 +12,8 @@ class Header1 extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 
+      <button onclick="topFunction()" id="myBtn" title="Back to top">▲</button>
+
       <link href="../css/bootstrap.min.css" rel="stylesheet">
       <link href="../css/styles.css" rel="stylesheet">
 
@@ -50,6 +52,8 @@ class Header2 extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+
+      <button onclick="topFunction()" id="myBtn" title="Back to top">▲</button>
 
       <link href="../css/bootstrap.min.css" rel="stylesheet">
       <link href="../css/styles.css" rel="stylesheet">
@@ -282,7 +286,7 @@ let mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
