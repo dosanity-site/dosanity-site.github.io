@@ -62,7 +62,7 @@ input:focus, textarea {
 /* Mobile */
 @media only screen and (max-width:599px) {
   .button {
-    width: 80px !important;
+    width: 75px !important;
     padding: 1px 5px !important;
   }
 }
