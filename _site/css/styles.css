@@ -117,7 +117,7 @@ body {
 }
 
 .title-btn {
-  font-size: 50px;
+  font-size: 45px;
   font-family: 'Georgia', sans-serif !important;
   letter-spacing: 0.1em;
   margin-top: 120px;
@@ -815,7 +815,7 @@ section .about-row {
     padding: 25px;
   }
   .value-size{
-    font-size: 25px;
+    font-size: 23px;
   }
   
 }
@@ -901,7 +901,7 @@ section .about-row {
 }
 
 .intern-btn {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.5);
   border: 3px solid white;
