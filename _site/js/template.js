@@ -23,7 +23,7 @@ class Header1 extends HTMLElement {
               <div class="navbar-brand">
                 <a href="../">
                 <a href="../">
-                  <img class="nav-logo" src="../assets/images/photos/offtherack-white.png">
+                  <img class="nav-logo" src="../assets/images/photos/offtherack-white-words.png">
                 </a>
               </div>
               <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -62,7 +62,7 @@ class Header2 extends HTMLElement {
               <div class="navbar-brand">
                 <a href="../">
                 <a href="../">
-                  <img class="nav-logo" src="../assets/images/photos/offtherack-white.png">
+                  <img class="nav-logo" src="../assets/images/photos/offtherack-white-words.png">
                 </a>
               </div>
               <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -103,7 +103,7 @@ class Header3 extends HTMLElement {
               <div class="navbar-brand">
                 <a href="../">
                 <a href="../">
-                  <img class="nav-logo" src="../assets/images/photos/offtherack-white.png">
+                  <img class="nav-logo" src="../assets/images/photos/offtherack-white-words.png">
                 </a>
               </div>
               <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -141,7 +141,7 @@ class Header4 extends HTMLElement {
               </button>
               <div class="navbar-brand">
               <a href="../">
-                <img class="nav-logo" src="../assets/images/photos/offtherack-white.png">
+                <img class="nav-logo" src="../assets/images/photos/offtherack-white-words.png">
               </a>
               </div>
               <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -179,7 +179,7 @@ class Header5 extends HTMLElement {
               </button>
               <div class="navbar-brand">
                 <a href="../">
-                  <img class="nav-logo" src="../assets/images/photos/offtherack-white.png">
+                  <img class="nav-logo" src="../assets/images/photos/offtherack-white-words.png">
                 </a>
               </div>
               <div class="collapse navbar-collapse" id="navbarResponsive">

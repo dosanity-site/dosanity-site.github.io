@@ -4,7 +4,9 @@
 
 // ====================================================================================================================================
 
-// Note: You can change the words between the dotted lines.
+// NOTE: You can change the words between the dotted lines. Example: <!---------------->
+
+// NOTE: DO NOT CHANGE ANY WORDS BETWEEN EQUAL SIGN LINES!! Example: ===================
 
 // ====================================================================================================================================
 
