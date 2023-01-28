@@ -423,7 +423,7 @@ img {
 .hero-section {
   position: relative;
   overflow: hidden;
-  padding-top: 70px;
+  /* padding-top: 70px; */
   height: 100vh;
 }
 
