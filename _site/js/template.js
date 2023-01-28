@@ -251,6 +251,14 @@ class Footer2 extends HTMLElement {
       <link href="../css/styles.css" rel="stylesheet">
 
       <footer>
+                
+          <div class="mobile-center fixed-footer">
+            <a href="https://www.instagram.com/offtherackut/"><img class="contacts-btn" src="assets/images/icons/insta-black.png"></a>
+            <a href="mailto:offtherackut@gmail.com"><img class="contacts-btn" src="assets/images/icons/email.png"></a>
+            <a href="tel:801-759-9434"><img class="contacts-btn" src="assets/images/icons/phone.png"></a>
+            <a href="https://www.tiktok.com/@offtherackut"><img class="contacts-btn" src="assets/images/icons/tiktok.png"></a>
+
+          </div>
 
           <div class="footer-bottom footer-position"> 
               <p class='m-0 text-center text-white' id='copyright'>&copy; ` + new Date().getFullYear() + ` OFF THE RACK, ALL RIGHTS RESERVED</p>
