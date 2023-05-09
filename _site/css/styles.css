@@ -113,7 +113,8 @@ body {
   letter-spacing: 0.05em;
   height: 100%;
   /* margin-top: 78px; */
-  background-color: rgb(56,101,51,0.5);
+  /* background-color: rgb(56,101,51,0.5); */
+  background-color: white;
 }
 
 .title-btn {
