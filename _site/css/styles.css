@@ -7,7 +7,7 @@
 @import url('https://fonts.cdnfonts.com/css/amperzand');
 @import url('https://fonts.googleapis.com/css?family=Hurricane&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+@import url('https://fonts.cdnfonts.com/css/roboto');
 @import url('https://fonts.cdnfonts.com/css/georgia');
 @import url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
 
@@ -109,7 +109,7 @@ body {
   overflow-y:scroll;
   /* font-family:  -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto; */
   /* font-family: 'Arial Rounded MT', sans-serif; */
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.05em;
   height: 100%;
   /* margin-top: 78px; */
@@ -118,7 +118,7 @@ body {
 
 .title-btn {
   font-size: 45px;
-  font-family: 'Georgia', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   /* letter-spacing: 0.1em; */
   margin-top: 120px;
   font-weight: bold;
