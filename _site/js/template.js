@@ -203,6 +203,44 @@ class Header5 extends HTMLElement {
 
 customElements.define('home-nav', Header5);
 
+class Header6 extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/styles.css" rel="stylesheet">
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-brand">
+                <a href="../">
+                  <img class="nav-logo" src="../assets/images/photos/offtherack-white-words.png">
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                      <a href="../"><b>Home</b></a>
+                      <a href="../vendors"><b>Vendors</b></a>
+                      <a href="../careers"><b>Careers</b></a>
+                      <a href="../about"><b>About Us</b></a>
+                      <a href="../contact"><b>Contact</b></a>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      `;
+  }
+}
+
+customElements.define('other-nav', Header6);
+
 
 // ====================================================================================
 
